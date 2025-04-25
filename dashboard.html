@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard | Quiz Intergaláctico</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="body-neumorph">
+  <header class="header-neumorph">
+    <h1 class="logo">🚀 Quiz Intergaláctico</h1>
+    <nav>
+      <a href="index.html" class="btn-neumorph">Home</a>
+      <a href="sobre.html" class="btn-neumorph">Sobre Nós</a>
+      <a href="dashboard.html" class="btn-neumorph active">Dashboard</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="dashboard-section">
+      <h2>Seu Desempenho Intergaláctico 📊</h2>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <canvas id="chartPontuacao"></canvas>
+        </div>
+        <div class="stat-card">
+          <canvas id="chartTemas"></canvas>
+        </div>
+        <div class="stat-card">
+          <h3>🏆 Conquistas</h3>
+          <ul class="conquistas-list">
+            <li>✅ Completou o quiz 5 vezes</li>
+            <li>🎯 Acertou 100% em "Planetas"</li>
+            <li>👽 Encontrou o Easter Egg secreto</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer-neumorph">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3 class="footer-title">🚀 Quiz Intergaláctico</h3>
+        <p>Teste seu conhecimento sobre o cosmos e desafie outros exploradores espaciais!</p>
+      </div>
+      
+      <div class="footer-section">
+        <h3 class="footer-title">🌌 Conecte-se</h3>
+        <div class="social-links">
+          <a href="https://www.instagram.com/williamjmendes/" target="_blank" class="social-btn">
+            <span class="social-icon">👽</span> Instagram
+          </a>
+          <a href="https://www.linkedin.com/in/cvwilliammendes/" target="_blank" class="social-btn">
+            <span class="social-icon">🛸</span> LinkedIn
+          </a>
+          <a href="https://www.behance.net/williammendes5" target="_blank" class="social-btn">
+            <span class="social-icon">🌠</span> Behance
+          </a>
+          <a href="https://github.com/williammendes04" target="_blank" class="social-btn">
+            <span class="social-icon">🪐</span> GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>© 3021 - Feito com ♥ por um alienígena chamado <strong>William Mendes</strong></p>
+      <div class="footer-credits">
+        <button id="easterEgg" class="btn-neumorph-small">👾</button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
